@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/joy/Code/mtms', [] ]
+6 info preinstall mtms@0.0.0
+7 verbose readDependencies using package.json deps
+8 silly resolved []
+9 info build /Users/joy/Code/mtms
+10 verbose linkStuff [ false, false, false, '/Users/joy/Code' ]
+11 info linkStuff mtms@0.0.0
+12 verbose linkBins mtms@0.0.0
+13 verbose linkMans mtms@0.0.0
+14 verbose rebuildBundles mtms@0.0.0
+15 info install mtms@0.0.0
+16 info postinstall mtms@0.0.0
+17 verbose unsafe-perm in lifecycle true
+18 info mtms@0.0.0 Failed to exec postinstall script
+19 error mtms@0.0.0 postinstall: `grunt deploy`
+19 error Exit status 99
+20 error Failed at the mtms@0.0.0 postinstall script.
+20 error This is most likely a problem with the mtms package,
+20 error not with npm itself.
+20 error Tell the author that this fails on your system:
+20 error     grunt deploy
+20 error You can get their info via:
+20 error     npm owner ls mtms
+20 error There is likely additional logging output above.
+21 error System Darwin 13.4.0
+22 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install"
+23 error cwd /Users/joy/Code/mtms
+24 error node -v v0.10.32
+25 error npm -v 1.4.28
+26 error code ELIFECYCLE
+27 verbose exit [ 1, true ]
