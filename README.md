@@ -1,4 +1,4 @@
-## name of project
+## Middle Tennessee Mammography Society
 ### Code Badges
 build status icon
 coverage status icon
@@ -8,40 +8,18 @@ coverage status icon
 ![Image2](https://raw.githubusercontent.com/nss-cohort-2014-06-07/express-template/master/docs/screenshots/two.jpg)
 
 ### Description
-write a description about your project
-
-### Models
-```
-Model 1
-```
-
-```
-Model 2
-```
-
-### Database
-```
-Collecion 1
-```
-
-```
-Collection 2
-```
+This is the website for the Middle Tennessee Mammography Society (MTMS). MTMS is a non-profit organization that exists to help radiologic technologists meet their yearly requirements for continuing education credits.
 
 ### Features
-- [x] Feature 1
-- [ ] Feature 2
-- [x] Feature 3
+- [ ] Organization information
+- [ ] User log-in and profile
+- [ ] Admin access to update basic information
 
 ### Running Tests
 ```bash
 $ npm install
 $ npm test
 ```
-
-### Contributors
-- [Chyld Medford](https://github.com/chyld)
-
 ### License
 [MIT](LICENSE)
 

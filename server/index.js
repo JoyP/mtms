@@ -14,3 +14,6 @@ require('./lib/mongodb')(db, function(){
 
 module.exports = app;
 
+/*
+Code to run: PORT=3333 DB=mongodb://joy@Joys-MacBook-Pro:mtms node server/index.js
+*/
